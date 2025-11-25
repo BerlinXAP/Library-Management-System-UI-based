@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS books (
+  id INTEGER PRIMARY KEY,
+  title TEXT NOT NULL,
+  author TEXT,
+  copies INTEGER DEFAULT 1,
+  isIssued INTEGER DEFAULT 0
+);
